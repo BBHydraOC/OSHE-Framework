@@ -15,10 +15,7 @@ set /a usedMem=totalMem-availableMem
 Echo Total Memory: %totalMem%
 Echo Used Memory: %usedMem%
 
-set /p x="M%totalMem%" <nul >\\.\COM9
-ping 192.0.2.2 -n 1 -w 2000 > nul
-
-set /p x="U%usedMem%" <nul >\\.\COM9
-ping 192.0.2.2 -n 1 -w 2000 > nul
+set /p x="%totalMem%P%usedMem%PLine0PLine1PLine2PLine3PE" <nul >\\.\COM9
+ping 192.0.2.2 -n 1 -w 1000 > nul
 
 goto loop
