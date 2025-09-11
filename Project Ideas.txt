@@ -3,3 +3,6 @@ Framework Microcontroller expansion card (Specific Microcontroller not decided)
 Dual USB-C expansion card with charging (If possible physically)
 RGB front panel for desktop
 RS232 Adapter Expansion Card
+Picovolt measurement expansion
+Bus Pirate
+Logic Analyzer
