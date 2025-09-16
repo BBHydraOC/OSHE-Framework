@@ -51,6 +51,8 @@ void loop() {
             out = " Max: ";
           }else if(found == 1){
             out = "Used: ";
+          }else if(found == 2){
+            out = "Avail: ";
           }else{
             out = "Err: ";
           }
