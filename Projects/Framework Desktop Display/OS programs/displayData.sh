@@ -25,11 +25,18 @@ memavail=$((memavail / 1024))
 memused=$((memmax - memavail))
 #echo "$memused"
 
-#Fetch cpu temp from sensors
+#Fetch cpu temp from file
 cputemp=$(< /sys/class/thermal/thermal_zone0/temp)
 cputemp=$(echo "scale=1; $cputemp / 1000" | bc -l)
 #echo "$cputemp"
 
+#Fetch gpu temp from lm-sensors
+gputemp=$(sensors amdgpu-* | grep 'edge:' | awk '{print $2}')
+#Remove extra chars
+gputemp="${gputemp//°C}"
+gputemp="${gputemp//+}"
+echo "$gputemp
+"
 #Send data out to COM port and sleep
 echo -n "$(($memmax))P$(($memused))P$(($memavail))P${cputemp}P999P999PE" >&3
 sleep 1
