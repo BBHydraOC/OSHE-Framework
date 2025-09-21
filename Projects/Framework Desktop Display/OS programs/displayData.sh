@@ -64,6 +64,6 @@ vmemused=$((vmemused / 1024))
 #echo "${vmemused} MB"
 
 #Send data out to COM port and sleep
-echo -n "$(($memmax))P$(($memused))P$(($memavail))P${cputemp}P999P999PE" >&3
+echo -n "$(($memmax))P$(($memused))P${cputemp}P${cpuutil}P${gputemp}P${gpuutil}PE" >&3
 sleep 1
 done
