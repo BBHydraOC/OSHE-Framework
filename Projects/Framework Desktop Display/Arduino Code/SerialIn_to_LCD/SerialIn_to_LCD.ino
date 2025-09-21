@@ -52,7 +52,13 @@ void loop() {
           }else if(found == 1){
             out = "Used: ";
           }else if(found == 2){
-            out = "Avail: ";
+            out = "CPU Temp: ";
+          }else if(found == 3){
+            out = "CPU Util: ";
+          }else if(found == 4){
+            out = "GPU Temp: ";
+          }else if(found == 5){
+            out = "GPU Util: ";
           }else{
             out = "Err: ";
           }
