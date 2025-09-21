@@ -1525,7 +1525,7 @@
 	)
 	(text "Rev 1.2 - Seth Gaboury: Updated schematic and implemented values for many of the components, please review the changes \n"
 		(exclude_from_sim no)
-		(at 61.976 147.066 0)
+		(at 75.692 147.066 0)
 		(effects
 			(font
 				(size 1.27 1.27)
