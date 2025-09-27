@@ -1,8 +1,34 @@
+Desktop:
+Tileable NeoPixel grid for desktop front panel
+RGB front panel for desktop front panel
+Status Display for desktop front panel
+Graphics display for desktop front panel (Maybe a monitor?)
+
+Expansion Cards:
 Framework I2C expansion card
 Framework Microcontroller expansion card (Specific Microcontroller not decided)
 Dual USB-C expansion card with charging (If possible physically)
-RGB front panel for desktop
 RS232 Adapter Expansion Card
 Picovolt measurement expansion
 Bus Pirate
 Logic Analyzer
+TOSLINK Audio adapter
+Oculink card
+
+Old Components:
+NAS Chasis
+TV Box / Plex Server with storage
+Framework 12 screen based tablet? (Very out there project)
+
+Framework 16 Bay:
+Radio receiver
+Oscilloscope
+Multimeter
+Component tester
+Spectrometer
+More expansion cards? (Not like it doesn't have enough already)
+
+
+
+
+
