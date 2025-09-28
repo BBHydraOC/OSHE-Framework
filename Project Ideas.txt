@@ -14,11 +14,13 @@ Bus Pirate
 Logic Analyzer
 TOSLINK Audio adapter
 Oculink card
+Thermocouple / Thermometer
 
 Old Components:
 NAS Chasis
 TV Box / Plex Server with storage
 Framework 12 screen based tablet? (Very out there project)
+External display for old screens
 
 Framework 16 Bay:
 Radio receiver
