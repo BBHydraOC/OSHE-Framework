@@ -101,7 +101,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0.762 -1.778 180)
+			(at 2.748 -0.044 180)
 			(layer "F.SilkS")
 			(uuid "4379e13f-b7be-4d72-80ea-f11e42c80645")
 			(effects
@@ -111,8 +111,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at -0.762 -1.778 180)
+		(property "Value" ".47uF"
+			(at 0.748 -3.044 180)
 			(layer "F.Fab")
 			(uuid "1e580a79-c77a-4640-90e0-00a75de34164")
 			(effects
@@ -1337,7 +1337,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "8a3141b7-cdd7-40ab-87d5-12d6e469f1c3")
+			(uuid "9716009d-ce32-4eca-ac2f-889bf8862831")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Plug_Molex_105444.step"
@@ -1599,7 +1599,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at -0.718 -1.778 0)
+			(at -0.718 -2.138 0)
 			(layer "F.SilkS")
 			(uuid "55f686b8-fac6-444f-92d8-e620986f924c")
 			(effects
@@ -1609,8 +1609,8 @@
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 0.762 -1.778 0)
+		(property "Value" ".22uF"
+			(at 0.912 -3.138 0)
 			(layer "F.Fab")
 			(uuid "e130db4b-54ce-470a-b155-4ac35e569fe7")
 			(effects

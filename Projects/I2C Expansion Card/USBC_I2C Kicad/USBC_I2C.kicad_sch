@@ -2561,7 +2561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.47uF"
 			(at 83.312 34.036 0)
 			(effects
 				(font
@@ -2873,7 +2873,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.22uF"
 			(at 123.19 34.2899 0)
 			(effects
 				(font
