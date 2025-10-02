@@ -55,8 +55,7 @@ while True:
             addr = slaveaddr,
             size = 2)
         
-        print("Recieved: " + data.decode('utf-8'))
-        print("Recieved from: 0x%02X" % (slaveaddr) )
+        print("Recieved: -" + data.decode('utf-8') + "- from: 0x%02X" % (slaveaddr))
             
     mcp.GPIO_write(gp2 = True)
     sleep(0.25)
