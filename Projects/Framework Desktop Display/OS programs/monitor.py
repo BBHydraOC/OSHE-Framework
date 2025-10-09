@@ -2,14 +2,15 @@ import psutil
 import serial
 import time
 import wmi
+from vram import vramPercent
 
 # WMI interface
 w = wmi.WMI(namespace="root\\CIMV2")
 
 # Serial to ESP32
 ser = serial.Serial("COM14", 115200)  # change COM port if needed
-time.sleep(0.25)
-print("setup complete")
+#time.sleep(0.25)
+#print("setup complete")
 
 while True:
     # CPU + RAM
@@ -25,10 +26,13 @@ while True:
     #Sometimes gpu util fetches >100% util
     if(gpu > 100):
         gpu = 100
-        
+    
+    vram = int(round(vramPercent(),0))
+    
     # Send CSV
-    data = f"{cpu},{ram},{gpu}\n"
+    data = f"{cpu},{ram},{gpu},{vram}\n"
     ser.write(data.encode())
-    print("fetch complete")
+    print(vram)
+    #print("fetch complete")
 
-    time.sleep(0.25)
+    

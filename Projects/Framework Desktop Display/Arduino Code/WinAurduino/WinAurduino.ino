@@ -15,14 +15,18 @@ void setup() {
 void loop() {
   if (Serial.available()) {
     String line = Serial.readStringUntil('\n');
-    int cpu, ram, gpu;
+    int cpu, ram, gpu, vram;
     // Expecting format: CPU,RAM,GPU
-    if (sscanf(line.c_str(), "%d,%d,%d", &cpu, &ram, &gpu) == 3) {
+    if (sscanf(line.c_str(), "%d,%d,%d,%d", &cpu, &ram, &gpu, &vram) == 4) {
       // Update first line
       lcd.setCursor(0, 0);
       lcd.print("CPU:");
       lcd.print(cpu);
-      lcd.print("% RAM:");
+      if(cpu < 100){
+        lcd.print("% RAM:");
+      }else{
+        lcd.print("%RAM:");
+      }
       lcd.print(ram);
       lcd.print("%   ");  // extra spaces overwrite leftovers
 
@@ -30,7 +34,13 @@ void loop() {
       lcd.setCursor(0, 1);
       lcd.print("GPU:");
       lcd.print(gpu);
-      lcd.print("%    "); // extra spaces overwrite leftovers
+      if(gpu < 100){
+        lcd.print("% VRA:");
+      }else{
+        lcd.print("%VRA:");
+      }
+      lcd.print(vram);
+      lcd.print("%   ");  // extra spaces overwrite leftovers
     }
   }
 }
