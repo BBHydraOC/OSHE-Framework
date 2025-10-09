@@ -1,2 +1,2 @@
 @echo off
-pip install wmi pySerial pyadl psutil
+pip install wmi pySerial pyadl psutil pyopencl
