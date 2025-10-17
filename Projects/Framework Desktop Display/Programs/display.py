@@ -33,12 +33,16 @@ while True:
     cpu = cpuload()
     ram = ramload()
     
-    if(cpu < 100):
+    if(cpu < 10):
+        lcd.write_line_fast("CPU:" + str(cpu) + "%  GPU:" + str(gpuload()) + "%", 0)
+    elif(cpu < 100):
         lcd.write_line_fast("CPU:" + str(cpu) + "% GPU:" + str(gpuload()) + "%", 0)
     else:
         lcd.write_line_fast("CPU:" + str(cpu) + "%GPU:" + str(gpuload()) + "%", 0)
     
-    if(ram < 100):
+    if(ram < 10):
+        lcd.write_line_fast("RAM:" + str(ram) + "%  VRA:" + str(vramload()) + "%", 1)
+    elif(ram < 100):
         lcd.write_line_fast("RAM:" + str(ram) + "% VRA:" + str(vramload()) + "%", 1)
     else:
         lcd.write_line_fast("RAM:" + str(ram) + "%VRA:" + str(vramload()) + "%", 1)
