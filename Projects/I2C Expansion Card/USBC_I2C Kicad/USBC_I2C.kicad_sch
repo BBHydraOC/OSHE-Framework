@@ -2571,7 +2571,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_0603_1608Metric"
+		(property "Footprint" "C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 89.8652 36.83 0)
 			(effects
 				(font
@@ -2883,7 +2883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "C_0603_1608Metric"
+		(property "Footprint" "C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 120.3452 36.83 0)
 			(effects
 				(font
