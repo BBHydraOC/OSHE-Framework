@@ -60,6 +60,22 @@
       ],
       "drc_exclusions": [
         [
+          "copper_edge_clearance|93870000|58682000|23311108-f330-45ef-8450-f503ed841e32|36361e19-0339-4dcd-ba21-ab1dab6d3fe8",
+          ""
+        ],
+        [
+          "copper_edge_clearance|93870000|58682000|23311108-f330-45ef-8450-f503ed841e32|7ba600a5-8351-4b51-94a2-5bf658b7e96d",
+          ""
+        ],
+        [
+          "copper_edge_clearance|99790000|58596000|11ec7e8d-c802-47dd-847d-b61bebba450e|8d292159-08e2-487c-9cb7-877233b4eff9",
+          ""
+        ],
+        [
+          "copper_edge_clearance|99790000|58596000|11ec7e8d-c802-47dd-847d-b61bebba450e|b59fa909-43fc-4a0a-b289-8d8cf630cbfb",
+          ""
+        ],
+        [
           "courtyards_overlap|104229811|61279000|7828b906-c3f6-4407-a016-2330bca6d59e|8dbe3f30-282d-4f3d-8036-c79f2814d126",
           ""
         ],
@@ -148,23 +164,15 @@
           ""
         ],
         [
-          "unconnected_items|94060000|59182000|F.Cu|4|7ba600a5-8351-4b51-94a2-5bf658b7e96d|36361e19-0339-4dcd-ba21-ab1dab6d3fe8",
+          "unconnected_items|95560000|59182000|F.Cu|4|6eb2d442-421f-472b-a939-0b2991211a21|1cf3f56b-5c60-4ae2-b196-4c79bab7a2f4",
           ""
         ],
         [
-          "unconnected_items|95560000|59182000|F.Cu|4|6eb2d442-421f-472b-a939-0b2991211a21|4cabbdfc-176f-4c2c-89e1-98604e1ede8f",
+          "unconnected_items|98060000|59182000|F.Cu|4|de4a190a-de12-4946-be74-574f620ecda9|1cf3f56b-5c60-4ae2-b196-4c79bab7a2f4",
           ""
         ],
         [
-          "unconnected_items|98060000|59182000|F.Cu|4|de4a190a-de12-4946-be74-574f620ecda9|4cabbdfc-176f-4c2c-89e1-98604e1ede8f",
-          ""
-        ],
-        [
-          "unconnected_items|98060000|59182000|F.Cu|4|de4a190a-de12-4946-be74-574f620ecda9|f92c7dc9-a5c1-4882-9b9c-977047e5de5b",
-          ""
-        ],
-        [
-          "unconnected_items|99560000|59182000|F.Cu|4|8d292159-08e2-487c-9cb7-877233b4eff9|b59fa909-43fc-4a0a-b289-8d8cf630cbfb",
+          "unconnected_items|98060000|59182000|F.Cu|4|f92c7dc9-a5c1-4882-9b9c-977047e5de5b|de4a190a-de12-4946-be74-574f620ecda9",
           ""
         ]
       ],
