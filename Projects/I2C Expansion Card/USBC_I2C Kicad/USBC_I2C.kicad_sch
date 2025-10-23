@@ -727,6 +727,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Polyfuse"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_0_1"
+				(polyline
+					(pts
+						(xy -1.524 2.54) (xy -1.524 1.524) (xy 1.524 -1.524) (xy 1.524 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1955,6 +2104,12 @@
 		(uuid "267f870d-a172-49a8-820d-3f1bcdb3d9a9")
 	)
 	(junction
+		(at 88.9 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65001061-b5b4-4555-a3aa-cda5c8f3791a")
+	)
+	(junction
 		(at 181.61 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1979,22 +2134,10 @@
 		(uuid "b7eafbcb-f9ae-4b86-afb4-eae812a90361")
 	)
 	(junction
-		(at 88.9 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbf759f3-cf9b-4286-a703-d3e015fa99ad")
-	)
-	(junction
 		(at 87.63 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc369dce-e970-4c4e-a0a8-46b2390d41f9")
-	)
-	(junction
-		(at 88.9 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eaa7a005-9163-4d43-b201-e89c2b251d88")
 	)
 	(wire
 		(pts
@@ -2278,16 +2421,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 48.26) (xy 88.9 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79f6c964-5c23-49c2-b0fe-c3287efe6bde")
-	)
-	(wire
-		(pts
 			(xy 74.93 60.96) (xy 106.68 60.96)
 		)
 		(stroke
@@ -2295,16 +2428,6 @@
 			(type default)
 		)
 		(uuid "7d1cf1d5-7222-4993-b873-2a7d97ef2f06")
-	)
-	(wire
-		(pts
-			(xy 88.9 48.26) (xy 88.9 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e23a32d-687b-499d-b303-2310f8da936d")
 	)
 	(wire
 		(pts
@@ -2335,6 +2458,16 @@
 			(type default)
 		)
 		(uuid "89b6e4ee-b650-4e0a-a8d3-22b1e3ee47e5")
+	)
+	(wire
+		(pts
+			(xy 162.56 31.75) (xy 166.37 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af5680c-462b-417d-ad6b-eb5f912098cc")
 	)
 	(wire
 		(pts
@@ -2375,6 +2508,16 @@
 			(type default)
 		)
 		(uuid "9631977c-e4ed-4a51-937d-b12828c59e13")
+	)
+	(wire
+		(pts
+			(xy 88.9 48.26) (xy 88.9 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f0c314-a7aa-4f87-baf8-dfa0cee4f215")
 	)
 	(wire
 		(pts
@@ -2478,16 +2621,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 48.26) (xy 88.9 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7c5e436-e831-44d2-9ae8-fc4de336de83")
-	)
-	(wire
-		(pts
 			(xy 116.84 39.37) (xy 143.51 39.37)
 		)
 		(stroke
@@ -2568,6 +2701,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 48.26) (xy 88.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f00b14-4e11-47a5-97be-ae08e4bd98e1")
+	)
+	(wire
+		(pts
 			(xy 87.63 55.88) (xy 87.63 57.15)
 		)
 		(stroke
@@ -2605,16 +2748,6 @@
 			(type default)
 		)
 		(uuid "dd8af553-9ed3-4fe6-972b-bbb55996080b")
-	)
-	(wire
-		(pts
-			(xy 143.51 31.75) (xy 166.37 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ded180f7-03ce-4fa3-838d-362c05db2744")
 	)
 	(wire
 		(pts
@@ -2708,6 +2841,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 31.75) (xy 154.94 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2bc16e0-1140-4e7a-98fe-d3ad1e91ef63")
+	)
+	(wire
+		(pts
 			(xy 105.41 58.42) (xy 106.68 58.42)
 		)
 		(stroke
@@ -2756,7 +2899,7 @@
 		)
 		(uuid "fca5f25b-e659-4761-8a2a-74083bc6947a")
 	)
-	(global_label "5V"
+	(global_label "Vo"
 		(shape output)
 		(at 166.37 31.75 0)
 		(fields_autoplaced yes)
@@ -2768,7 +2911,7 @@
 		)
 		(uuid "4efe3967-1a40-4f8e-acaf-dabb7b3653f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.6533 31.75 0)
+			(at 171.5928 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,6 +3885,144 @@
 			(project "USBC_I2C"
 				(path "/95c30658-c235-4432-9e4a-c0895948e60c"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 161.29 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84e13757-2ff4-4954-87ee-1dd7f6db1a1d")
+		(property "Reference" "F2"
+			(at 161.29 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 161.29 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e72bac08-1d7a-462d-9018-4606c768895b")
+		)
+		(pin "1"
+			(uuid "6928389f-71f9-456d-ae00-29c6f3b0012e")
+		)
+		(instances
+			(project "USBC_I2C"
+				(path "/95c30658-c235-4432-9e4a-c0895948e60c"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 158.75 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95895715-8410-49b8-ab67-63dfc93be1c5")
+		(property "Reference" "F1"
+			(at 158.75 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 158.75 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse_1206_3216Metric"
+			(at 163.83 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 158.75 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ff43f32-9380-401c-89ad-4dd20d01f069")
+		)
+		(pin "1"
+			(uuid "4e5d5e41-a127-460b-84bd-375cca0e317f")
+		)
+		(instances
+			(project "USBC_I2C"
+				(path "/95c30658-c235-4432-9e4a-c0895948e60c"
+					(reference "F1")
 					(unit 1)
 				)
 			)
