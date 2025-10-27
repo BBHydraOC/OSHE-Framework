@@ -5064,7 +5064,7 @@
 		(property "Reference" "USB1"
 			(at 0 2.04 0)
 			(layer "F.SilkS")
-			(uuid "1a3acfb0-d7be-452d-a243-47a77618b183")
+			(uuid "8a0b8b44-c495-4754-adf6-86039ffb0085")
 			(effects
 				(font
 					(size 1 1)
@@ -5076,7 +5076,7 @@
 			(at 0 -1.96 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d2656d3-8847-4824-a585-5bc4fdc90b2c")
+			(uuid "7da5fe69-f87c-462d-a7b2-3aaf5a4af0b5")
 			(effects
 				(font
 					(size 1 1)
@@ -5089,7 +5089,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4607aa8b-3458-4135-9723-cc8f9c40b157")
+			(uuid "bc287e41-02ed-488c-be56-4bd5b75cc7a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5102,7 +5102,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8000aa27-9c08-40b0-a9b6-b6244d9333ba")
+			(uuid "197b76ce-617d-4ef6-9464-129d177db558")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6768,7 +6768,7 @@
 		(descr "SMD 4x-dip-switch SPST Omron_A6H-4101, Slide, row spacing 6.15 mm (242 mils), body size  (see https://www.omron.com/ecb/products/pdf/en-a6h.pdf)")
 		(tags "SMD DIP Switch SPST Slide 6.15mm 242mil")
 		(property "Reference" "SW1"
-			(at -3.429 -4.235 180)
+			(at 3.302 -4.028 180)
 			(layer "F.SilkS")
 			(uuid "c620b1d3-b889-40d3-9b91-cec7baa98229")
 			(effects
@@ -7381,7 +7381,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at -4.953 0 180)
+			(at -4.953 0.762 180)
 			(layer "F.SilkS")
 			(uuid "26e00aea-d14c-4db7-bac6-f1a49dbf2fbb")
 			(effects
@@ -7612,7 +7612,7 @@
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
-			(at 4.7894 -3.0988 0)
+			(at 4.51 -3.81 0)
 			(layer "F.SilkS")
 			(uuid "bdd1cf71-b7f1-4016-8690-58c7dc45dfb7")
 			(effects
@@ -9109,9 +9109,9 @@
 		(uuid "0dfb1119-eb86-4787-963e-4e21f3a11075")
 	)
 	(gr_arc
-		(start 99.53 58.21)
-		(mid 99.742132 58.297868)
-		(end 99.83 58.51)
+		(start 99.577868 58.21)
+		(mid 99.79 58.297868)
+		(end 99.877868 58.51)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -9131,8 +9131,8 @@
 		(uuid "13ee9d8e-af5a-4d70-b766-447a277e5fe3")
 	)
 	(gr_line
-		(start 93.79 58.51)
-		(end 93.79 58.86)
+		(start 93.74 58.51)
+		(end 93.74 58.86)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -9161,16 +9161,6 @@
 		(layer "Edge.Cuts")
 		(uuid "24aa0efa-8177-40eb-9cb4-dcfe93a5d2d5")
 	)
-	(gr_line
-		(start 92.42 59.16)
-		(end 93.49 59.16)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "287ae8fb-6230-4bde-b8cb-ccb3cd883d12")
-	)
 	(gr_arc
 		(start 91.82 57.16)
 		(mid 92.032132 57.247868)
@@ -9183,16 +9173,6 @@
 		(uuid "2cee2189-c5bb-43e6-b0c8-0592ea0df1b8")
 	)
 	(gr_line
-		(start 101.22 59.16)
-		(end 100.13 59.16)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "358b2959-a127-43d1-9661-eb5033b945cd")
-	)
-	(gr_line
 		(start 108.82 60.36)
 		(end 108.82 57.46)
 		(stroke
@@ -9203,8 +9183,18 @@
 		(uuid "39cf1ef6-5805-48f4-9b67-b07436127de3")
 	)
 	(gr_line
-		(start 99.83 58.51)
-		(end 99.83 58.86)
+		(start 100.177868 59.16)
+		(end 101.22 59.16)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4b9c584c-74dd-4ec0-aa36-645806f14f15")
+	)
+	(gr_line
+		(start 99.877868 58.51)
+		(end 99.877868 58.86)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -9224,9 +9214,9 @@
 		(uuid "580f3f91-57c1-4eb1-9e9e-919185717fb3")
 	)
 	(gr_arc
-		(start 93.79 58.51)
-		(mid 93.877868 58.297868)
-		(end 94.09 58.21)
+		(start 93.74 58.51)
+		(mid 93.827868 58.297868)
+		(end 94.04 58.21)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -9296,6 +9286,16 @@
 		(uuid "8d5a6603-dd78-468d-bcfe-e56b96891ee5")
 	)
 	(gr_line
+		(start 92.42 59.16)
+		(end 93.44 59.16)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9b2848ae-6d32-4510-ac8a-f4f871875bf5")
+	)
+	(gr_line
 		(start 84.82 57.46)
 		(end 84.82 60.36)
 		(stroke
@@ -9327,9 +9327,9 @@
 		(uuid "bcf605b5-4dd5-4d24-869f-074ab079bd0c")
 	)
 	(gr_arc
-		(start 100.13 59.16)
-		(mid 99.917868 59.072132)
-		(end 99.83 58.86)
+		(start 100.177868 59.16)
+		(mid 99.965736 59.072132)
+		(end 99.877868 58.86)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -9359,10 +9359,20 @@
 		(layer "Edge.Cuts")
 		(uuid "ce112d62-595d-4188-acaa-3d63eeafa6c0")
 	)
+	(gr_line
+		(start 94.04 58.21)
+		(end 94.09 58.21)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e8b249be-a005-4c5f-a515-152392abd2d4")
+	)
 	(gr_arc
-		(start 93.79 58.86)
-		(mid 93.702132 59.072132)
-		(end 93.49 59.16)
+		(start 93.74 58.86)
+		(mid 93.652132 59.072132)
+		(end 93.44 59.16)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -9401,6 +9411,16 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "f8fc228b-4dd1-4dc0-a5b8-e3bcb91d3f24")
+	)
+	(gr_line
+		(start 99.53 58.21)
+		(end 99.577868 58.21)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fb58ae70-b77c-417d-a4fd-e5546f1e2ed2")
 	)
 	(gr_arc
 		(start 84.12 87.16)
@@ -9455,6 +9475,18 @@
 				(thickness 0.15)
 				(bold yes)
 			)
+		)
+	)
+	(gr_text "\n0011 I2C\n1100 UART"
+		(at 93.98 65.659 0)
+		(layer "F.SilkS")
+		(uuid "da414b68-2a85-4c5f-b277-62c84f72a220")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "SDA\n\n\nURX\n"
@@ -13226,7 +13258,7 @@
 				(xy 88.789256 59.4756) (xy 88.750196 59.459421) (xy 88.750193 59.45942) (xy 88.734806 59.453047)
 				(xy 88.696305 59.437099) (xy 88.595695 59.437099) (xy 88.595693 59.4371) (xy 87.814959 59.4371)
 				(xy 87.74792 59.417415) (xy 87.727278 59.400781) (xy 87.654089 59.327592) (xy 87.654087 59.32759)
-				(xy 87.582861 59.286467) (xy 87.550814 59.267964) (xy 87.493219 59.252532) (xy 87.435625 59.2371)
+				(xy 87.58283 59.286449) (xy 87.550814 59.267964) (xy 87.493219 59.252532) (xy 87.435625 59.2371)
 				(xy 87.316375 59.2371) (xy 87.201185 59.267964) (xy 87.097913 59.32759) (xy 87.09791 59.327592)
 				(xy 87.013592 59.41191) (xy 87.01359 59.411913) (xy 86.953964 59.515185) (xy 86.9231 59.630375)
 				(xy 86.9231 59.749624) (xy 86.953964 59.864814) (xy 86.970639 59.893695) (xy 87.01359 59.968087)
